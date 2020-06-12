@@ -3,9 +3,9 @@ number=0
 num=$(ls | wc -l)
 echo "How many files are in this current directory?"
 
-	while [[ $number -eq F ]]
+	while [[ $number -eq 0 ]]
 	do
-		read -p 'Type one natural number ' n
+		read -p "Type one natural number " n
 		if [[ $n -gt $num ]]
 		then
 			echo "No... your guess was too high. Try again"
