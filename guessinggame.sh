@@ -18,5 +18,5 @@ fi
 done
 
 function thanks {
-	echo "Thank you for playing this little game! by brunocajado at Unix Worbench course"
+	echo "Thank you for playing this little game!"
 }
