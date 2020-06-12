@@ -1,5 +1,3 @@
-Title of this project: guessinggame.sh
-Date and Time make was run:
--rw-rw-rw- 1 cajado cajado  29 Jun 11 17:09 makefile
-Number of lines in guessinggames.sh:
-22 guessinggame.sh
+## The name of this project is guessinggame.sh
+This makefile was run on: Thu Jun 11 23:47:24 -03 2020
+Number of lines at guessinggame.sh: 22 guessinggame.sh
