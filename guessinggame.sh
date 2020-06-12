@@ -1,20 +1,21 @@
 function How-Many-Files {
 number=0
-echo "How many files are in this hypothetical directory?"
+num=$(ls | wc -l)
+echo "How many files are in this current directory?"
 
-while [[ $number -eq 0 ]]
-do
-	read -p 'Type one natural number' num
-	if [[ $num -gt 72 ]]
-	then
-		echo "No... your guess was too high."
-	elif [[ $num -lt 72 ]]
-	then
-		echo "No... your guess was too low."
-	elif [[ $num -eq 72 ]]
-	then
-		echo "Yeah! You've got it. Congratulations!"
-		break
+	while [[ $number -eq F ]]
+	do
+		read -p 'Type one natural number ' n
+		if [[ $n -gt $num ]]
+		then
+			echo "No... your guess was too high. Try again"
+		elif [[ $n -lt $num ]]
+		then
+			echo "No... your guess was too low. Try again!"
+		elif [[ $n -eq $num ]]
+		then
+			echo "Yeah! You've got it. Congratulations!"
+			break
 fi
 done
 }
