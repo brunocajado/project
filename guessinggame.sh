@@ -1,6 +1,6 @@
 function How-Many-Files {
 number=0
-num=$(ls | wc -l)
+num=$(ls -a | wc -l)
 echo "How many files are in this current directory?"
 
 	while [[ $number -eq 0 ]]
