@@ -1,3 +1,4 @@
+function How-Many-Files {
 number=0
 echo "How many files are in this hypothetical directory?"
 
@@ -16,7 +17,5 @@ do
 		break
 fi
 done
-
-function thanks {
-	echo "Thank you for playing this little game!"
 }
+How-Many-Files
